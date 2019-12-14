@@ -1,0 +1,6 @@
+# Config stuff
+
+ADMIN_PASSWORD = 'YOURADMINPASSWORD'
+CAMERA_IP = '192.168.1.XX'
+
+
