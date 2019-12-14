@@ -1,6 +1,6 @@
 import requests
 import vlc
-
+import config
 
 class Digoo:
 
@@ -12,8 +12,8 @@ class Digoo:
         """
         self.ip = ip
         self.headers = {'Content-Type': 'application/soap+xml'}
-        self._hd_player = vlc.MediaPlayer('rtsp://admin:20160404@{}/onvif1'.format(self.ip))
-        self._lq_player = vlc.MediaPlayer('rtsp://admin:20160404@{}/onvif2'.format(self.ip))
+        self._hd_player = vlc.MediaPlayer('rtsp://admin:' + config.ADMIN_PASSWORD +'@{}/onvif1'.format(self.ip))
+        self._lq_player = vlc.MediaPlayer('rtsp://admin:' + config.ADMIN_PASSWORD +'@{}/onvif2'.format(self.ip))
 
     #############
     # MOVEMENTS #
