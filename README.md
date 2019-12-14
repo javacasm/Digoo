@@ -11,6 +11,9 @@ Python script to use Digoo ip cams.
 
 ### Initialization:
 
+
+Remember change de admin password for the proper one if you has changed it
+
 ```python
 from digoo import Digoo
 d = Digoo('<your-cam-ip-address>')
@@ -86,6 +89,12 @@ If you need this feature try to update to VLC 3.*
 
 * requests
 * python-vlc
+
+```
+pip3 install python-vlc
+```
+
+
 
 ### System Requirements
 
