@@ -1,10 +1,10 @@
-
 # Digoo
 
 Python script to use Digoo ip cams.
 
 
 **Note**: Tested with **Digoo BB-M1X** (*Digoo Camera M-series M1X*) also called *Digoo BB-MIX Mini IP Camera* over Linux. It should work with other Digoo IP cams like *Digoo BB-M1Q*.
+
 
 
 ## How to use
@@ -115,3 +115,9 @@ I would like to hide VLC error messages.
 ## License
 
 GPLv3
+
+## Recursos
+
+[camera as motion sensor](https://www.domoticz.com/wiki/Camera_Setup#Using_your_camera_as_motion_sensor)
+
+[Root access to the camera](https://nm-projects.de/2017/01/hacking-ip-camera-digoo-bb-m2-part-3-getting-root-access/)
